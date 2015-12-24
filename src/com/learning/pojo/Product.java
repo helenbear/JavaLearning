@@ -44,6 +44,23 @@ public class Product {
 	public void setImgUrl(String imgUrl) {
 		this.imgUrl = imgUrl;
 	}
+	public Product(int id, String productId, String productName, float price, String productType, String imgUrl) {
+		super();
+		this.id = id;
+		this.productId = productId;
+		this.productName = productName;
+		this.price = price;
+		this.productType = productType;
+		this.imgUrl = imgUrl;
+	}
+	public Product() {
+		super();
+	}
+	@Override
+	public String toString() {
+		return "Product:{\"id\":" + id + ", \"productId\":" + productId + ", \"productName\":" + productName + ", \"price\":" + price
+				+ ", \"productType\":" + productType + ", \"imgUrl\":" + imgUrl + "}";
+	}
 	
 	
 	
