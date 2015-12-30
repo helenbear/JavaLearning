@@ -1,6 +1,6 @@
-create database store;
-use store;
-create table product(
+create database store1;
+use store1;
+create table product1(
 id int auto_increment primary key,
 productId varchar(20),
 productName varchar(20),

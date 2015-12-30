@@ -8,6 +8,7 @@ public class Product {
 	private float price;
 	private String productType;
 	private String imgUrl;
+	
 	public int getId() {
 		return id;
 	}
